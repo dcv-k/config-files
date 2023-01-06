@@ -1,17 +1,21 @@
-:set number
+set number
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set mouse=a
+set noswapfile
+set backupdir=~/.cache/vim
 
 call plug#begin()
-
-Plug 'https://github.com/preservim/nerdtree'
-
+Plug 'ryanoasis/vim-devicons'
+Plug 'scrooloose/nerdtree'
+Plug 'rafi/awesome-vim-colorschemes'
+Plug 'mhinz/vim-startify'
 call plug#end()
 
-nnoremap <C-f> :NERDTreeFocus<CR>
+:colorscheme afterglow
+
+nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
-
-:colorscheme blue
-
-let g:NERDTreeDirArrowExpandable="+"
-let g:NERDTreeDirArrowCollapsible="~"
-
+nnoremap <C-f> :NERDTreeFind<CR>
