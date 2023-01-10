@@ -13,7 +13,7 @@ Plug 'rafi/awesome-vim-colorschemes'
 Plug 'mhinz/vim-startify'
 call plug#end()
 
-:colorscheme afterglow
+:colorscheme jellybeans
 
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
