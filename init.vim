@@ -13,7 +13,7 @@ Plug 'rafi/awesome-vim-colorschemes'
 Plug 'mhinz/vim-startify'
 call plug#end()
 
-:colorscheme challenger_deep
+:colorscheme deep-space
 
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
